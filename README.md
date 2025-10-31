@@ -1,9 +1,10 @@
 # 🎙️ AI Audio Transcriber
 
+[![Streamlit App]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-audio-transcriber.streamlit.app](https://sarthakaiaudio.streamlit.app/))
+
 A web application built with Streamlit that transcribes audio files to text using OpenAI's Whisper model. This app is multilingual, fast, and provides a clean user interface for uploading and viewing transcriptions.
 
-![Demo Screenshot](https://i.imgur.com/your-screenshot-url.png)  
-*(You can take a screenshot of your working app, upload it to a site like Imgur, and paste the URL here)*
+![Demo Screenshot](./demo.png)
 
 ---
 
@@ -32,4 +33,35 @@ To run this project on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github
+    git clone [https://github.com/Squaddyy/AI-Audio-Transcriber.git](https://github.com/Squaddyy/AI-Audio-Transcriber.git)
+    cd AI-Audio-Transcriber
+    ```
+
+2.  **Create and activate a virtual environment:**
+    ```bash
+    # For Windows
+    py -m venv venv
+    source venv/Scripts/activate
+    
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3.  **Install the required packages:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the Streamlit app:**
+    ```bash
+    streamlit run app.py
+    ```
+    The app will open in your default web browser.
+
+---
+
+## Acknowledgements
+
+* This project leverages the powerful `transformers` library by [Hugging Face](https://huggingface.co/).
+* The AI model is the `whisper-base` model by [OpenAI](https://openai.com/).
