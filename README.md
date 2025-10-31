@@ -1,6 +1,6 @@
 # 🎙️ AI Audio Transcriber
 
-[![Streamlit App]([https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-audio-transcriber.streamlit.app](https://sarthakaiaudio.streamlit.app/))
+**➡️ Live Demo:** [**Click here to try the app!**](https://sarthakaiaudio.streamlit.app/)
 
 A web application built with Streamlit that transcribes audio files to text using OpenAI's Whisper model. This app is multilingual, fast, and provides a clean user interface for uploading and viewing transcriptions.
 
