@@ -1,0 +1,53 @@
+/* --- General Page Style --- */
+body {
+    background-color: #f0f2f6; /* Light gray background */
+}
+
+/* --- Main App Container --- */
+/* This targets the main block of the Streamlit app */
+[data-testid="stAppViewContainer"] {
+    background-image: linear-gradient(135deg, #f0f2f6 0%, #e6e9f0 100%);
+}
+
+/* --- Headers and Titles --- */
+h1 {
+    color: #31333F; /* Darker title color */
+}
+
+h2, h3 {
+    color: #4A4A4A; /* Slightly lighter header color */
+}
+
+/* --- Streamlit Widgets --- */
+
+/* Style the file uploader */
+[data-testid="stFileUploader"] {
+    border: 2px dashed #007BFF;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Style the main "Transcribe Audio" button */
+[data-testid="stButton"] > button {
+    background-color: #007BFF; /* Primary blue */
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+[data-testid="stButton"] > button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the text area for the transcript */
+[data-testid="stTextArea"] > div > textarea {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: #333;
+}
